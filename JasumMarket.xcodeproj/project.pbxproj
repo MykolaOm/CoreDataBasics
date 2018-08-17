@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1728ED6B212772E100C7A448 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728ED69212772E100C7A448 /* Person+CoreDataClass.swift */; };
+		1728ED6C212772E100C7A448 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728ED6A212772E100C7A448 /* Person+CoreDataProperties.swift */; };
+		174E111B21261C8E00EDF981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174E111A21261C8E00EDF981 /* AppDelegate.swift */; };
+		174E111D21261C8E00EDF981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174E111C21261C8E00EDF981 /* ViewController.swift */; };
+		174E112021261C8E00EDF981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174E111E21261C8E00EDF981 /* Main.storyboard */; };
+		174E112321261C8E00EDF981 /* JasumMarket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 174E112121261C8E00EDF981 /* JasumMarket.xcdatamodeld */; };
+		174E112521261C9800EDF981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174E112421261C9800EDF981 /* Assets.xcassets */; };
+		174E112821261C9800EDF981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174E112621261C9800EDF981 /* LaunchScreen.storyboard */; };
+		174E11302126257400EDF981 /* PersistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174E112F2126257400EDF981 /* PersistanceService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1728ED69212772E100C7A448 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1728ED6A212772E100C7A448 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		174E111721261C8E00EDF981 /* JasumMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JasumMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		174E111A21261C8E00EDF981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		174E111C21261C8E00EDF981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		174E111F21261C8E00EDF981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		174E112221261C8E00EDF981 /* JasumMarket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JasumMarket.xcdatamodel; sourceTree = "<group>"; };
+		174E112421261C9800EDF981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		174E112721261C9800EDF981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		174E112921261C9800EDF981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174E112F2126257400EDF981 /* PersistanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		174E111421261C8E00EDF981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		174E110E21261C8E00EDF981 = {
+			isa = PBXGroup;
+			children = (
+				174E111921261C8E00EDF981 /* JasumMarket */,
+				174E111821261C8E00EDF981 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		174E111821261C8E00EDF981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				174E111721261C8E00EDF981 /* JasumMarket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		174E111921261C8E00EDF981 /* JasumMarket */ = {
+			isa = PBXGroup;
+			children = (
+				1728ED69212772E100C7A448 /* Person+CoreDataClass.swift */,
+				1728ED6A212772E100C7A448 /* Person+CoreDataProperties.swift */,
+				174E111A21261C8E00EDF981 /* AppDelegate.swift */,
+				174E111C21261C8E00EDF981 /* ViewController.swift */,
+				174E111E21261C8E00EDF981 /* Main.storyboard */,
+				174E112421261C9800EDF981 /* Assets.xcassets */,
+				174E112621261C9800EDF981 /* LaunchScreen.storyboard */,
+				174E112921261C9800EDF981 /* Info.plist */,
+				174E112121261C8E00EDF981 /* JasumMarket.xcdatamodeld */,
+				174E112F2126257400EDF981 /* PersistanceService.swift */,
+			);
+			path = JasumMarket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		174E111621261C8E00EDF981 /* JasumMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174E112C21261C9800EDF981 /* Build configuration list for PBXNativeTarget "JasumMarket" */;
+			buildPhases = (
+				174E111321261C8E00EDF981 /* Sources */,
+				174E111421261C8E00EDF981 /* Frameworks */,
+				174E111521261C8E00EDF981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JasumMarket;
+			productName = JasumMarket;
+			productReference = 174E111721261C8E00EDF981 /* JasumMarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		174E110F21261C8E00EDF981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Nikolas Omelianov";
+				TargetAttributes = {
+					174E111621261C8E00EDF981 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 174E111221261C8E00EDF981 /* Build configuration list for PBXProject "JasumMarket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 174E110E21261C8E00EDF981;
+			productRefGroup = 174E111821261C8E00EDF981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				174E111621261C8E00EDF981 /* JasumMarket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		174E111521261C8E00EDF981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174E112821261C9800EDF981 /* LaunchScreen.storyboard in Resources */,
+				174E112521261C9800EDF981 /* Assets.xcassets in Resources */,
+				174E112021261C8E00EDF981 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		174E111321261C8E00EDF981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174E112321261C8E00EDF981 /* JasumMarket.xcdatamodeld in Sources */,
+				174E11302126257400EDF981 /* PersistanceService.swift in Sources */,
+				1728ED6C212772E100C7A448 /* Person+CoreDataProperties.swift in Sources */,
+				1728ED6B212772E100C7A448 /* Person+CoreDataClass.swift in Sources */,
+				174E111D21261C8E00EDF981 /* ViewController.swift in Sources */,
+				174E111B21261C8E00EDF981 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		174E111E21261C8E00EDF981 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				174E111F21261C8E00EDF981 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		174E112621261C9800EDF981 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				174E112721261C9800EDF981 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		174E112A21261C9800EDF981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		174E112B21261C9800EDF981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		174E112D21261C9800EDF981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S55L3KXWBC;
+				INFOPLIST_FILE = JasumMarket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolasomelianov.JasumMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		174E112E21261C9800EDF981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S55L3KXWBC;
+				INFOPLIST_FILE = JasumMarket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolasomelianov.JasumMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		174E111221261C8E00EDF981 /* Build configuration list for PBXProject "JasumMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174E112A21261C9800EDF981 /* Debug */,
+				174E112B21261C9800EDF981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		174E112C21261C9800EDF981 /* Build configuration list for PBXNativeTarget "JasumMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174E112D21261C9800EDF981 /* Debug */,
+				174E112E21261C9800EDF981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		174E112121261C8E00EDF981 /* JasumMarket.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				174E112221261C8E00EDF981 /* JasumMarket.xcdatamodel */,
+			);
+			currentVersion = 174E112221261C8E00EDF981 /* JasumMarket.xcdatamodel */;
+			path = JasumMarket.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 174E110F21261C8E00EDF981 /* Project object */;
+}
